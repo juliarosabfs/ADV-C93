@@ -40,7 +40,7 @@ keyPressed = e.keyCode;
 console.log(keyPressed);
 if(e.shiftKey == true && keyPressed == '80')
 {
-	console.log("P e Shift pressionados ao mesmo tempo");
+	console.log("P e Shift pressionadas ao mesmo tempo");
 	block_image_width = block_image_width + 10;
 	block_image_height = block_image_height + 10;
 	document.getElementById("current_width").innerHTML = block_image_width;
@@ -48,7 +48,7 @@ if(e.shiftKey == true && keyPressed == '80')
 }
 if(e.shiftKey && keyPressed == '77')
 {
-	console.log("M e Shift pressionados ao mesmo tempo");
+	console.log("M e Shift pressionadas ao mesmo tempo");
 	block_image_width = block_image_width - 10;
 	block_image_height = block_image_height - 10;
 	document.getElementById("current_width").innerHTML = block_image_width;
