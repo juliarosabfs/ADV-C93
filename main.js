@@ -38,17 +38,17 @@ function my_keydown(e)
 {
 keyPressed = e.keyCode;
 console.log(keyPressed);
-if(e.shiftKey == true && keyPressed == '80')
+if(e.shiftKey == true && keyPressed == '67')
 {
-	console.log("P e Shift pressionadas ao mesmo tempo");
+	console.log("C e Shift pressionadas ao mesmo tempo");
 	block_image_width = block_image_width + 10;
 	block_image_height = block_image_height + 10;
 	document.getElementById("current_width").innerHTML = block_image_width;
 	document.getElementById("current_height").innerHTML = block_image_height;	
 }
-if(e.shiftKey && keyPressed == '77')
+if(e.shiftKey && keyPressed == '68')
 {
-	console.log("M e Shift pressionadas ao mesmo tempo");
+	console.log("D e Shift pressionadas ao mesmo tempo");
 	block_image_width = block_image_width - 10;
 	block_image_height = block_image_height - 10;
 	document.getElementById("current_width").innerHTML = block_image_width;
