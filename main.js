@@ -80,10 +80,10 @@ if(e.shiftKey && keyPressed == '68')
 		new_image('parede.jpg'); 
 		console.log("p");
 	}
-	if(keyPressed == '67')
+	if(keyPressed == '71')
 	{
-		new_image('chao.png'); 
-		console.log("c");
+		new_image('grama.png'); 
+		console.log("g");
 	}
 	if(keyPressed == '86')
 	{
