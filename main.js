@@ -128,7 +128,7 @@ function up()
 	{
 		player_y = player_y - block_image_height;
 		console.log("altura da imagem do bloco = " + block_image_height);
-		console.log("Quando seta para cima é pressionada, X =  " + player_x + " , Y = "+player_y);
+		console.log("Quando a seta para cima é pressionada, X =  " + player_x + " , Y = "+player_y);
 		canvas.remove(player_object);
 		player_update();
 	}
@@ -140,7 +140,7 @@ function down()
 	{
 		player_y = player_y + block_image_height;
 		console.log("altura da imagem do bloco = " + block_image_height);
-		console.log("Quando seta para baixo é pressionada, X =  " + player_x + " , Y = "+player_y);
+		console.log("Quando a seta para baixo é pressionada, X =  " + player_x + " , Y = "+player_y);
 		canvas.remove(player_object);
 		player_update();
 	}
@@ -152,7 +152,7 @@ function left()
 	{
 		player_x = player_x - block_image_width;
 		console.log("largura da imagem do bloco = " + block_image_width);
-		console.log("Quando seta esquerda é pressionada, X =  " + player_x + " , Y = "+player_y);
+		console.log("Quando a seta esquerda é pressionada, X =  " + player_x + " , Y = "+player_y);
 		canvas.remove(player_object);
 		player_update();
 	}
@@ -164,7 +164,7 @@ function right()
 	{
 		player_x = player_x + block_image_width;
 		console.log("largura da imagem do bloco = " + block_image_width);
-		console.log("Quando seta direita é pressionada, X =  " + player_x + " , Y = "+player_y);
+		console.log("Quando a seta direita é pressionada, X =  " + player_x + " , Y = "+player_y);
 		canvas.remove(player_object);
 		player_update();
 	}
